@@ -1,0 +1,47 @@
+/*  Đơn vị đo */
+
+/* em, rem, %, px, vh, vw - phân biệt */
+/* px: đơn vị tuyệt đối, kích thước không thay đổi theo màn hình hoặc các phần tử khác */
+/* vw, vh: ăn theo % kích thước của màn hình 1vw = 1% của chiều rộng màn hình, tt vh */
+/* %: tỉ lệ so với phần tử cha hoặc thuộc tính tương ứng */
+/* rem: đơn vị tương đối so với thẻ html: 1rem = default font-size thẻ html */
+/* em: đơn vị tương đối so với phần tử cha: 1em = default font-size phần tử cha */
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+p {
+  font-size: 2rem; /* 32px */
+}
+h1 {
+  font-size: 1.5rem; /* 24px */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem; /* 32px */
+  justify-content: space-between;
+}
+.box {
+  background-color: orange;
+  /* shorthand */
+  /* padding: 20px; css 4 phía */
+  /* padding: 10px 20px; /* css trên-dưới, trái-phải */
+  /* padding: 10px 20px 30px; /* css trên, trái-phải, dưới */
+  /* padding: 10px 20px 30px 40px; css trên, phải, dưới, trái */
+  font-size: 2em; /* 64px */
+  margin: 24px 0;
+  border: 10px solid red;
+}
+
+/* Box-model */
+/* padding: lấy khoảng cách từ nội dung đến viền */
+/* border: viền xung quanh phần tử */
+/* margin: khoảng cách từ phần tử đến phần tử khác */
+/* width: chiều rộng phần tử */
+/* height: chiều cao phần tử */
+/* box-sizing: border-box: kích thước phần tử bao gồm padding và border */
+/* box-sizing: content-box: kích thước phần tử chỉ bao gồm nội dung */
