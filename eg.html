@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Có 2 loại thẻ: inline và block</h3>
+    <p><strong>Thẻ block:</strong> chiếm toàn bộ độ rộng của trang</p>
+    <p>Ví dụ: div, section, header, footer, ...</p>
+    <div style="background-color: orange; width: 100%;">Nội dung</div>
+    <p><strong>Thẻ inline:</strong> chỉ chiếm độ rộng bằng nội dung</p>
+    <p>Ví dụ: span, a, img, ...</p>
+    <span style="height: 100px; width: 100px; background-color: orange; width: 100%; margin: 10px;">Nội dung</span>   
+    <span style="display: inline-block; background-color: pink; height: 100px; width: 100px; margin: 10px;">Nội dung</span>   
+    <a href="#" style="color: orange;">Nội dung</a> <br>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/039/210/050/small_2x/ai-generated-beautiful-nature-mountain-scenery-professionalgraphy-photo.jpg" alt="Ảnh">
+    <img style="width: 547px; height: 365px;" src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-thatguycraig000-1563356.jpg&fm=jpg" alt="Ảnh">
+
+
+    <hr style="border:2px solid black;">
+
+    <h3>Position trong css</h3>
+    <div style="position: static; left: 30px;">
+        <p>This text is static</p>
+    </div>
+    <div style="position: relative; left: 30px; top: 15px;">
+        <p>This text is relative</p>
+    </div>
+    <div style="position: fixed; bottom: 0; right: 50%;">
+        <p>This text is fixed</p>
+    </div>
+    <div style="position:relative; border: 1px solid black; height: 100px; width: 100%;">
+        <div style="position: absolute; top:20px; right:50px; border: 3px solid blue;" >
+            <p>This text is absolute</p>
+        </div>
+    </div>
+    <br>
+    <div style="background-color: red; height: 500px;">
+        <div style="position: sticky; top: 50px; border: 3px solid green;">
+            <p>This text is sticky</p>
+        </div>
+    </div>
+    <div style="height: 1000px; background-color: orange;"></div>
+</body>
+</html>
