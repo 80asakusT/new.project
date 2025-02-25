@@ -177,6 +177,10 @@ header a:hover{
   line-height: 2.7rem;
 }
 
+#menu-img img{
+  width : 100%;
+}
+
 #menu-text h1{
   text-align: center;
 }
